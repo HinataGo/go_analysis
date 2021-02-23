@@ -1,5 +1,7 @@
 # 源码解析01 demo01
 [下载go1.15](https://github.com/golang/go/releases/tag/go1.15.8)
+go的type类型定义可以看 /src/go/types/type.go
+编译的 可以看  /src/cmd/compile/internal/types/type.go
 ## 调试go语言 
 ```shell
 # 进入源码包路径下

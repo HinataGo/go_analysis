@@ -121,7 +121,7 @@ func Main(archInit func(*Arch)) {
 	lines := parseFiles(flag.Args())
 ```
 - 编译完整过程
-```shell
+```md
     检查常量、类型和函数的类型；
     处理变量的赋值；
     对函数的主体进行类型检查；
